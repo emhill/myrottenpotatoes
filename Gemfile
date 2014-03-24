@@ -7,13 +7,16 @@ gem 'rails', '3.2.16'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+group :production do
+	gem 'pg'
+end
 
 # Additions as per book instructions p. 102
 gem 'haml' # Use Haml for templates
 # use Ruby debugger
 group :development, :test do
 	gem 'ruby-debug19'
+	gem 'sqlite3'
 end
 
 
