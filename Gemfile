@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Adding a comment to test committing
+
 gem 'rails', '3.2.16'
 
 # Bundle edge Rails instead:
